@@ -219,6 +219,9 @@ To run this project locally:
     - `EPL_2024_25_Player_Dependencies.ipynb`
     - `EPL_2024_25_Team_Playstyles.ipynb`
 
+> **Note:** Some of the interactive visualizations created using Plotly may not render correctly in GitHub's notebook preview.  
+> For full interactivity, it is recommended to run the notebooks locally using Jupyter Notebook or JupyterLab.
+
 ---
 
 
