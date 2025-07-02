@@ -43,17 +43,12 @@ Each module includes well-structured visualizations and player/team rankings to 
 
 ## Project Structure
 
-```text
-project-root/
-│
-├── EPL_UnderStat_Scraper.ipynb                # Web scraping notebook to extract Premier League player data from Understat
-├── EPL_2024_25_Player_Performance.ipynb       # Analysis 1: Player Value based on xG + xA per 90
-├── EPL_2024_25_Player_Efficiency.ipynb        # Analysis 2: Player Efficiency and Shot Profiles
-├── EPL_2024_25_Player_Dependencies.ipynb      # Analysis 3: Team Dependency on Star Players
-├── EPL_2024_25_Team_Playstyles.ipynb          # Analysis 4: Team Build-Up and Progression Profiles
-├── README.md                                  # Project overview, methodology, insights, and instructions
-└── premier_league_2024_25.csv                 # Cleaned dataset containing player statistics for the 2024/25 season
-```
+EPL_UnderStat_Scraper.ipynb                # Web scraping notebook to extract Premier League player data from Understat
+EPL_2024_25_Player_Performance.ipynb       # Analysis 1: Player Value based on xG + xA per 90
+EPL_2024_25_Player_Efficiency.ipynb        # Analysis 2: Player Efficiency and Shot Profiles
+EPL_2024_25_Player_Dependencies.ipynb      # Analysis 3: Team Dependency on Star Players
+EPL_2024_25_Team_Playstyles.ipynb          # Analysis 4: Team Build-Up and Progression Profiles
+EPL_2024_25_Understat.csv                 # Cleaned dataset containing player statistics for the 2024/25 season
 
 
 Each Jupyter Notebook is self-contained with code, visualizations, and detailed markdown explanations for reproducibility and independent review.
