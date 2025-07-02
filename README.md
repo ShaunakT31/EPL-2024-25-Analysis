@@ -4,6 +4,7 @@ Comprehensive data analysis of the Premier League 2024/25 season using Python. T
 
 ---
 
+
 ## Table of Contents
 
 - [Project Overview](#project-overview)
@@ -22,6 +23,7 @@ Comprehensive data analysis of the Premier League 2024/25 season using Python. T
 
 ---
 
+
 ## Project Overview
 
 This project provides a detailed, data-driven analysis of the English Premier League (EPL) 2024/25 season. The primary objective is to uncover actionable insights into player performance, team strategies, and offensive dynamics using advanced football statistics.
@@ -37,6 +39,7 @@ The project is divided into four key analytical modules:
 Each module includes well-structured visualizations and player/team rankings to support meaningful football insights.
 
 ---
+
 
 ## Project Structure
 
@@ -54,6 +57,7 @@ project-root/
 Each Jupyter Notebook is self-contained with code, visualizations, and detailed markdown explanations for reproducibility and independent review.
 
 ---
+
 
 ## Tools and Libraries Used
 
@@ -73,6 +77,7 @@ The following tools and libraries were used to develop and analyze this project:
 - **plotly.graph_objects**: For enhanced customization of Plotly charts and detailed layout control.
 
 ---
+
 
 ## Dataset and Data Collection
 
@@ -113,20 +118,23 @@ Additional derived metrics were calculated in the notebooks:
 
 ---
 
+
 ### Dataset Details:
 - The cleaned dataset used for all analyses is provided in this repository as:
   
-  **`premier_league_2024_25.csv`**
+  **`EPL_2024_25_Understat.csv`**
 
 > **Note:** The scraping process was conducted solely for educational purposes and adheres to the fair usage policies of the data source.
 
 ---
+
 
 ## Problem Statements
 
 This project addresses four distinct but interconnected football analytics problems using data from the Premier League 2024/25 season. Each analysis provides unique perspectives on player performance, team strategies, and ball progression.
 
 ---
+
 
 ## 1. Player Performance & Value Analysis (xG + xA per 90)
 
@@ -140,6 +148,7 @@ Identify the most valuable players based on their expected goal (xG) and expecte
 
 ---
 
+
 ## 2. Player Efficiency and Shot Profiles
 
 ### Objective
@@ -151,6 +160,7 @@ Develop detailed efficiency and shot profiles for Premier League players by anal
 - Can players be classified as clinical, volume shooters, or all-round offensive contributors?
 
 ---
+
 
 ## 3. Team Dependency on Star Players
 
@@ -164,6 +174,7 @@ Examine the degree to which teams rely on key individuals for their attacking ou
 
 ---
 
+
 ## 4. Team Build-Up and Progression Profiles
 
 ### Objective
@@ -175,6 +186,7 @@ Analyze how Premier League teams build their attacks and progress the ball throu
 - Which players are key build-up contributors, often involved in deeper phases of play?
 
 ---
+
 
 ## Key Insights
 
@@ -196,6 +208,7 @@ These insights collectively contribute to a more nuanced understanding of player
 
 ---
 
+
 ## How to Run
 
 To run this project locally:
@@ -209,13 +222,14 @@ To run this project locally:
     pip install pandas numpy matplotlib seaborn plotly aiohttp nest_asyncio understat
     ```
 3. Run the Jupyter notebooks:
-    - `scraper.ipynb` (to scrape the data)
-    - `analysis_1_player_value.ipynb`
-    - `analysis_2_player_efficiency.ipynb`
-    - `analysis_3_team_dependency.ipynb`
-    - `analysis_4_team_buildup.ipynb`
+    - `EPL_UnderStat_Scraper.ipynb` (to scrape the data)
+    - `EPL_2024_25_Player_Performance.ipynb`
+    - `EPL_2024_25_Player_Efficiency.ipynb`
+    - `EPL_2024_25_Player_Dependencies.ipynb`
+    - `EPL_2024_25_Team_Playstyles.ipynb`
 
 ---
+
 
 ## Conclusions
 
@@ -230,6 +244,7 @@ This project provided a multi-dimensional performance evaluation of Premier Leag
 This project showcases the importance of using expected metrics and per 90-minute normalizations to develop balanced, insightful evaluations of player and team performance.
 
 ---
+
 
 ## Contact
 
