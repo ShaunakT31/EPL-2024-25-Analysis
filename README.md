@@ -8,7 +8,6 @@ Comprehensive data analysis of the Premier League 2024/25 season using Python. T
 ## Table of Contents
 
 - [Project Overview](#project-overview)
-- [Project Structure](#project-structure)
 - [Tools and Libraries Used](#tools-and-libraries-used)
 - [Dataset and Data Collection](#dataset-and-data-collection)
 - [Problem Statements](#problem-statements)
@@ -64,6 +63,8 @@ The following tools and libraries were used to develop and analyze this project:
 ## Dataset and Data Collection
 
 The dataset for this project was self-collected using a **custom-built Python web scraper** that extracted detailed player statistics from the [Understat](https://understat.com/) website for the **Premier League 2024/25 season**.
+
+*Refer to the scraping notebook: [EPL_UnderStat_Scraper.ipynb](EPL_UnderStat_Scraper.ipynb)*
 
 ### Dataset Columns
 
@@ -128,6 +129,8 @@ Identify the most valuable players based on their expected goal (xG) and expecte
 - Which players overperformed or underperformed relative to their expected contributions?
 - How can we identify players whose goal and assist counts do not fully reflect their underlying impact?
 
+*Refer to the analysis notebook: [EPL_2024_25_Player_Performance.ipynb](EPL_2024_25_Player_Performance.ipynb)*
+
 ---
 
 
@@ -140,6 +143,8 @@ Develop detailed efficiency and shot profiles for Premier League players by anal
 - Which players were the most clinical finishers (highest goals per shot)?
 - Which players were the most frequent shooters and most influential chance creators?
 - Can players be classified as clinical, volume shooters, or all-round offensive contributors?
+
+*Refer to the analysis notebook: [EPL_2024_25_Player_Efficiency.ipynb](EPL_2024_25_Player_Efficiency.ipynb)*
 
 ---
 
@@ -154,6 +159,8 @@ Examine the degree to which teams rely on key individuals for their attacking ou
 - Which teams are heavily dependent on one or two players?
 - Which teams display a balanced distribution of offensive responsibilities?
 
+*Refer to the analysis notebook: [EPL_2024_25_Player_Dependencies.ipynb](EPL_2024_25_Player_Dependencies.ipynb)*
+
 ---
 
 
@@ -166,6 +173,8 @@ Analyze how Premier League teams build their attacks and progress the ball throu
 - Which teams rely on structured build-up play versus direct attacking transitions?
 - Which teams rank highest in xGChain and xGBuildup per 90?
 - Which players are key build-up contributors, often involved in deeper phases of play?
+
+*Refer to the analysis notebook: [EPL_2024_25_Team_Playstyles.ipynb](EPL_2024_25_Team_Playstyles.ipynb)*
 
 ---
 
